@@ -18,4 +18,9 @@ public class ValidadorPrimoTest{
         assertTrue(ValidadorPrimo.esPrimo(7));
     }
 
+    @Test
+    public void testOnceEsPrimo(){
+        assertTrue(ValidadorPrimo.esPrimo(11));
+    }
+
 }
