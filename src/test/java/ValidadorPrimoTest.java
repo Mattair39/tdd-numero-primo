@@ -12,4 +12,10 @@ public class ValidadorPrimoTest{
     public void testDosEsPrimo(){
         assertTrue(ValidadorPrimo.esPrimo(2));
     }
+
+    @Test
+    public void testSieteEsPrimo(){
+        assertTrue(ValidadorPrimo.esPrimo(7));
+    }
+
 }
